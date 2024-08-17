@@ -1,0 +1,59 @@
+body {
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    margin: 20px;
+}
+
+#dadosp {
+    margin: 30px;
+}
+
+.card-header {
+    font-size: 25px;
+    background-color: rgb(11, 11, 11);
+}
+
+p {
+    font-size: 1rem;
+}
+
+header {
+    background-color: rgb(11, 11, 11);
+    padding: 20px;
+    text-align: center;
+}
+
+#txtdesc {
+    color:rgb(202, 202, 202)
+}
+
+footer {
+    background-color: rgb(11, 11, 11);
+    color: white; /* Cor do texto */
+    padding: 100px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    width: 100%; /* Largura total */
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Sobe 10px */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card:hover {
+    animation: floating 3s ease-in-out infinite; /* 3 segundos para um ciclo completo */
+}
+
